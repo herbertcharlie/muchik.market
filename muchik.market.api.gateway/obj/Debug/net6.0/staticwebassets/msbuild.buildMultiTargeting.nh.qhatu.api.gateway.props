@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\nh.qhatu.api.gateway.props" />
+</Project>

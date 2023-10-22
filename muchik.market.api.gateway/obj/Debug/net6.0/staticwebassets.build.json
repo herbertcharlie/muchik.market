@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9T7ZVdsNq7DwOiItC2okiNpK9ZU1LsBCrjJgLZ7FtHM=",
+  "Source": "muchik.market.api.gateway",
+  "BasePath": "_content/muchik.market.api.gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

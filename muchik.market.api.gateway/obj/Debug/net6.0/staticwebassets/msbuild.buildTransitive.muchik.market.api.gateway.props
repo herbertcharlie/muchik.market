@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\muchik.market.api.gateway.props" />
+</Project>

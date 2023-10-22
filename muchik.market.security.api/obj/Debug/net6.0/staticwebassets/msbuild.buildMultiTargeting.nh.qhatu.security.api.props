@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\nh.qhatu.security.api.props" />
+</Project>

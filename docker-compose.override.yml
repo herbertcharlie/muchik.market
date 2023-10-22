@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  muchik.market.security.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=dev
+    ports:
+      - "9205:80"
+
+  muchik.market.api.gateway:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=dev
+    ports:
+      - "9500:80"
+

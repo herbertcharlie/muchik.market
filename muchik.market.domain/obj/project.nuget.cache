@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kNNlFibLr8TY5auCYOWB2JmiMEvpapiaer9D+geZ1ODCOZ+DtIF7EgBM7Ma0vL0fhjY/pVMoVqSg+g1WTzJsVg==",
+  "success": true,
+  "projectFilePath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\muchik.market\\muchik.market.domain\\muchik.market.domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

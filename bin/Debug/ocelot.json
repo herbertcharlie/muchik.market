@@ -1,0 +1,110 @@
+{
+  "Routes": [
+    {
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "DownstreamPathTemplate": "/api/common/{everything_else}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nh.qhatu.common.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/qhatu/api/common/{everything_else}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "RouteClaimsRequirement": {
+        "Role": "admin"
+      }
+    },
+    {
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "DownstreamPathTemplate": "/api/customer/{everything_else}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nh.qhatu.customer.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/qhatu/api/customer/{everything_else}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "RouteClaimsRequirement": {
+        "Role":  "admin"
+      }
+    },
+    {
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "DownstreamPathTemplate": "/api/homedelivery/{everything_else}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nh.qhatu.homedelivery.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/qhatu/api/homedelivery/{everything_else}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "RouteClaimsRequirement": {
+        "Role": "admin"
+      }
+    },
+    {
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "DownstreamPathTemplate": "/api/omnichannel/{everything_else}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nh.qhatu.omnichannel.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/qhatu/api/omnichannel/{everything_else}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "RouteClaimsRequirement": {
+        "Role": "admin"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/security/{everything_else}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "muchik.market.security.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/muchik/api/security/{everything_else}",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/payment/{everything_else}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nh.qhatu.payment.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/qhatu/api/payment/{everything_else}",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "RouteClaimsRequirement": {
+        "Role": "admin"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://nh.qhatu.api.gateway"
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\nh.qhatu.security.api.props" />
+</Project>

@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.application\\nh.qhatu.security.application.csproj": {}
+  },
+  "projects": {
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrasctructure.crosscutting\\nh.qhatu.infrasctructure.crosscutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrasctructure.crosscutting\\nh.qhatu.infrasctructure.crosscutting.csproj",
+        "projectName": "nh.qhatu.infrasctructure.crosscutting",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrasctructure.crosscutting\\nh.qhatu.infrasctructure.crosscutting.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrasctructure.crosscutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.application\\nh.qhatu.security.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.application\\nh.qhatu.security.application.csproj",
+        "projectName": "nh.qhatu.security.application",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.application\\nh.qhatu.security.application.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrasctructure.crosscutting\\nh.qhatu.infrasctructure.crosscutting.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrasctructure.crosscutting\\nh.qhatu.infrasctructure.crosscutting.csproj"
+              },
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.domain\\nh.qhatu.security.domain.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.domain\\nh.qhatu.security.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.domain\\nh.qhatu.security.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.domain\\nh.qhatu.security.domain.csproj",
+        "projectName": "nh.qhatu.security.domain",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.domain\\nh.qhatu.security.domain.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.security.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

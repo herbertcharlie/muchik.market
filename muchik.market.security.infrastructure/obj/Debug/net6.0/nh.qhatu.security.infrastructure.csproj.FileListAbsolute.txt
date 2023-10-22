@@ -1,0 +1,15 @@
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\bin\Debug\net6.0\nh.qhatu.security.infrastructure.deps.json
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\bin\Debug\net6.0\nh.qhatu.security.infrastructure.dll
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\bin\Debug\net6.0\nh.qhatu.security.infrastructure.pdb
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\bin\Debug\net6.0\nh.qhatu.security.domain.dll
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\bin\Debug\net6.0\nh.qhatu.security.domain.pdb
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\nh.qhatu.security.infrastructure.csproj.AssemblyReference.cache
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\nh.qhatu.security.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\nh.qhatu.security.infrastructure.AssemblyInfoInputs.cache
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\nh.qhatu.security.infrastructure.AssemblyInfo.cs
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\nh.qhatu.security.infrastructure.csproj.CoreCompileInputs.cache
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\nh.qhatu.security.infrastructure.csproj.CopyComplete
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\nh.qhatu.security.infrastructure.dll
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\refint\nh.qhatu.security.infrastructure.dll
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\nh.qhatu.security.infrastructure.pdb
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.security.infrastructure\obj\Debug\net6.0\ref\nh.qhatu.security.infrastructure.dll

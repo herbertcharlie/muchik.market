@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  muchik.market.security.api:
+    image: ${DOCKER_REGISTRY-}muchikmarketsecurityapi
+    build:
+      context: .
+      dockerfile: muchik.market.security.api/Dockerfile
+
+  muchik.market.api.gateway:
+    image: ${DOCKER_REGISTRY-}muchikmarketapigateway
+    build:
+      context: .
+      dockerfile: muchik.market.api.gateway/Dockerfile
+networks:
+  default:
+    external:
+      name: muchik-nw

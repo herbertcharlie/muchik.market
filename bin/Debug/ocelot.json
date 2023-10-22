@@ -30,6 +30,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://nh.qhatu.api.gateway"
+    "BaseUrl": "http://muchik.market.api.gateway"
   }
 }

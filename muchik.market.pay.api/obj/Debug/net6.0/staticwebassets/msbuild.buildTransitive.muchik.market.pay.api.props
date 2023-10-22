@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\muchik.market.pay.api.props" />
+</Project>

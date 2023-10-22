@@ -1,4 +1,3 @@
-using Microsoft.EntityFrameworkCore;
 using muchik.market.infrasctructure.crosscutting.Jwt;
 using muchik.market.security.api.Middleware;
 using muchik.market.security.application.interfaces;
@@ -9,6 +8,9 @@ using muchik.market.security.infrastructure.context;
 using muchik.market.security.infrastructure.repositories;
 using Steeltoe.Discovery.Client;
 using Steeltoe.Extensions.Configuration.ConfigServer;
+using Microsoft.EntityFrameworkCore;
+using Consul;
+using muchik.market.security.domain.entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,13 +27,21 @@ builder.Services.AddSwaggerGen();
 //Automapper
 builder.Services.AddAutoMapper(typeof(EntityToDtoProfile), typeof(DtoToEntityProfile));
 
-builder.Services.AddDbContext<SecurityContext>(opt =>
+//builder.Services.AddDbContext<SecurityContext>(opt =>
+//{
+//    opt.UseCosmos(
+//        builder.Configuration["cosmosDbSettings:endpoint"],
+//        builder.Configuration["cosmosDbSettings:primaryKey"],
+//        databaseName: builder.Configuration["cosmosDbSettings:database"]);
+//});
+
+//SQL Server
+builder.Services.AddDbContext<SecurityContext>(config =>
 {
-    opt.UseCosmos(
-        builder.Configuration["cosmosDbSettings:endpoint"],
-        builder.Configuration["cosmosDbSettings:primaryKey"],
-        databaseName: builder.Configuration["cosmosDbSettings:database"]);
+    //config.UseSqlServer("Data Source = localhost; Initial Catalog = db_security; user id = sa; password = NewHorizons_2023@");
+    config.UseSqlServer(builder.Configuration.GetValue<string>("connectionStrings:muchikConnection"));
 });
+
 
 //Services
 builder.Services.AddTransient<ISecurityService, SecurityService>();

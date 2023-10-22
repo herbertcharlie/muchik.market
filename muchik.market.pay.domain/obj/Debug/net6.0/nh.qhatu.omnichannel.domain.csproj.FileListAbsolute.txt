@@ -1,0 +1,11 @@
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\bin\Debug\net6.0\nh.qhatu.omnichannel.domain.deps.json
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\bin\Debug\net6.0\nh.qhatu.omnichannel.domain.dll
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\bin\Debug\net6.0\nh.qhatu.omnichannel.domain.pdb
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\obj\Debug\net6.0\nh.qhatu.omnichannel.domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\obj\Debug\net6.0\nh.qhatu.omnichannel.domain.AssemblyInfoInputs.cache
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\obj\Debug\net6.0\nh.qhatu.omnichannel.domain.AssemblyInfo.cs
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\obj\Debug\net6.0\nh.qhatu.omnichannel.domain.csproj.CoreCompileInputs.cache
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\obj\Debug\net6.0\nh.qhatu.omnichannel.domain.dll
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\obj\Debug\net6.0\refint\nh.qhatu.omnichannel.domain.dll
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\obj\Debug\net6.0\nh.qhatu.omnichannel.domain.pdb
+D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\nh-qhatu\nh.qhatu.omnichannel.domain\obj\Debug\net6.0\ref\nh.qhatu.omnichannel.domain.dll

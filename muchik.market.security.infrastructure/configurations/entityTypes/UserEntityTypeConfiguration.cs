@@ -8,26 +8,16 @@ namespace muchik.market.security.infrastructure.configurations.entityTypes
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.Property(e => e.Id)
-                .ToJsonProperty("id");
+            builder.ToTable("user");
+            builder.Property(e => e.Id).HasColumnName("id_user");
+            builder.HasKey(c => c.Id);
 
-            builder.Property(e => e.Username)
-                .ToJsonProperty("username");
-
-            builder.Property(e => e.Password)
-                .ToJsonProperty("password");
-
-            builder.Property(e => e.CustomerId)
-                .ToJsonProperty("customerId");
-
-            builder.Property(e => e.Role)
-                .ToJsonProperty("role");
+            builder.Property(e => e.Username).HasColumnName("username");
+            builder.Property(e => e.Password).HasColumnName("password");
+            builder.Property(e => e.CustomerId).HasColumnName("customerId");
+            builder.Property(e => e.Role).HasColumnName("role");
 
             builder.HasNoDiscriminator();
-
-            builder.HasPartitionKey(e => e.Id);
-
-            builder.UseETagConcurrency();
         }
     }
 }

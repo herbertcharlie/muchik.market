@@ -8,7 +8,8 @@
       "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
       "serviceActions": {
         "muchik.market.security.api": "StartDebugging",
-        "muchik.market.api.gateway": "StartDebugging"
+        "muchik.market.api.gateway": "StartDebugging",
+        "muchik.market.pay.api": "StartDebugging"
       }
     }
   }

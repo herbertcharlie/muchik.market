@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\nh.qhatu.omnichannel.api.props" />
+</Project>

@@ -1,0 +1,526 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.api\\nh.qhatu.omnichannel.api.csproj": {}
+  },
+  "projects": {
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj",
+        "projectName": "nh.qhatu.domain",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.bus\\nh.qhatu.infrastructure.bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.bus\\nh.qhatu.infrastructure.bus.csproj",
+        "projectName": "nh.qhatu.infrastructure.bus",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.bus\\nh.qhatu.infrastructure.bus.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.ioc\\nh.qhatu.infrastructure.ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.ioc\\nh.qhatu.infrastructure.ioc.csproj",
+        "projectName": "nh.qhatu.infrastructure.ioc",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.ioc\\nh.qhatu.infrastructure.ioc.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj"
+              },
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.bus\\nh.qhatu.infrastructure.bus.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.bus\\nh.qhatu.infrastructure.bus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.api\\nh.qhatu.omnichannel.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.api\\nh.qhatu.omnichannel.api.csproj",
+        "projectName": "nh.qhatu.omnichannel.api",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.api\\nh.qhatu.omnichannel.api.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.ioc\\nh.qhatu.infrastructure.ioc.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.infrastructure.ioc\\nh.qhatu.infrastructure.ioc.csproj"
+              },
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.application\\nh.qhatu.omnichannel.application.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.application\\nh.qhatu.omnichannel.application.csproj"
+              },
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.infrastructure\\nh.qhatu.omnichannel.infrastructure.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.infrastructure\\nh.qhatu.omnichannel.infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "Steeltoe.Discovery.Consul": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
+            "Steeltoe.Extensions.Configuration.ConfigServerCore": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.application\\nh.qhatu.omnichannel.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.application\\nh.qhatu.omnichannel.application.csproj",
+        "projectName": "nh.qhatu.omnichannel.application",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.application\\nh.qhatu.omnichannel.application.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.domain\\nh.qhatu.domain.csproj"
+              },
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.domain\\nh.qhatu.omnichannel.domain.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.domain\\nh.qhatu.omnichannel.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.domain\\nh.qhatu.omnichannel.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.domain\\nh.qhatu.omnichannel.domain.csproj",
+        "projectName": "nh.qhatu.omnichannel.domain",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.domain\\nh.qhatu.omnichannel.domain.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.infrastructure\\nh.qhatu.omnichannel.infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.infrastructure\\nh.qhatu.omnichannel.infrastructure.csproj",
+        "projectName": "nh.qhatu.omnichannel.infrastructure",
+        "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.infrastructure\\nh.qhatu.omnichannel.infrastructure.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.domain\\nh.qhatu.omnichannel.domain.csproj": {
+                "projectPath": "D:\\HERBERT\\CURSOS\\4.NET SERVICIOS\\proyecto\\nh-qhatu\\nh.qhatu.omnichannel.domain\\nh.qhatu.omnichannel.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

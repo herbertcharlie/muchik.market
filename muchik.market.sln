@@ -35,7 +35,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7D7F6B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.security.domain", "muchik.market.security.domain\muchik.market.security.domain.csproj", "{70738FA9-0790-47FA-916A-631F1D78D1F0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{13ADFCAA-DD6C-459D-A922-F918717082BE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{13ADFCAA-DD6C-459D-A922-F918717082BE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.security.infrastructure", "muchik.market.security.infrastructure\muchik.market.security.infrastructure.csproj", "{E3C31B22-D961-4339-9566-AA7C5F8FEE84}"
 EndProject
@@ -46,6 +46,24 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.infrasctructure.crosscutting", "muchik.market.infrasctructure.crosscutting\muchik.market.infrasctructure.crosscutting.csproj", "{297CC5FF-7C24-420F-8371-067FD76163A1}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{14C85862-BEE4-4D02-9815-C7D9818FC7E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pay", "Pay", "{E65880AA-3234-470F-84AC-160DF36D3AC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplication", "Aplication", "{A8B7C849-5407-4C3E-B509-7C86C6A076C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{87224BA9-2859-44B0-BE74-DD5CCC8EF0BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F3080D8A-8418-4D0E-AEC5-26FBAE5742BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9BB8ADFE-CDAC-4F41-B36E-25AC5208EE12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.pay.application", "muchik.market.pay.application\muchik.market.pay.application.csproj", "{4012F601-735B-4345-9330-F784BB78B12B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.pay.domain", "muchik.market.pay.domain\muchik.market.pay.domain.csproj", "{B4616A40-CFFF-49D5-A7DC-047B7903BB67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.pay.infrastructure", "muchik.market.pay.infrastructure\muchik.market.pay.infrastructure.csproj", "{4EE4A49F-9239-4F70-AD91-A9C279992A22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.pay.api", "muchik.market.pay.api\muchik.market.pay.api.csproj", "{956D7C35-D4D0-488D-BB2A-386B951EBAC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +111,22 @@ Global
 		{14C85862-BEE4-4D02-9815-C7D9818FC7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14C85862-BEE4-4D02-9815-C7D9818FC7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14C85862-BEE4-4D02-9815-C7D9818FC7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4012F601-735B-4345-9330-F784BB78B12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4012F601-735B-4345-9330-F784BB78B12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4012F601-735B-4345-9330-F784BB78B12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4012F601-735B-4345-9330-F784BB78B12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4616A40-CFFF-49D5-A7DC-047B7903BB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4616A40-CFFF-49D5-A7DC-047B7903BB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4616A40-CFFF-49D5-A7DC-047B7903BB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4616A40-CFFF-49D5-A7DC-047B7903BB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE4A49F-9239-4F70-AD91-A9C279992A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE4A49F-9239-4F70-AD91-A9C279992A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE4A49F-9239-4F70-AD91-A9C279992A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE4A49F-9239-4F70-AD91-A9C279992A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956D7C35-D4D0-488D-BB2A-386B951EBAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956D7C35-D4D0-488D-BB2A-386B951EBAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956D7C35-D4D0-488D-BB2A-386B951EBAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956D7C35-D4D0-488D-BB2A-386B951EBAC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +149,15 @@ Global
 		{52AA399C-FA12-4FAB-B01F-238940D293B9} = {36B766F1-E0B2-4A69-A5CB-BB04277C0996}
 		{61E56849-AC1E-4751-8686-1BEDBDB04D58} = {52AA399C-FA12-4FAB-B01F-238940D293B9}
 		{297CC5FF-7C24-420F-8371-067FD76163A1} = {FC63BD1A-6EDC-4919-919A-3BC8B97FF806}
+		{E65880AA-3234-470F-84AC-160DF36D3AC3} = {4DEA8D1E-459E-4755-B447-B8CAAC504360}
+		{A8B7C849-5407-4C3E-B509-7C86C6A076C6} = {E65880AA-3234-470F-84AC-160DF36D3AC3}
+		{87224BA9-2859-44B0-BE74-DD5CCC8EF0BD} = {E65880AA-3234-470F-84AC-160DF36D3AC3}
+		{F3080D8A-8418-4D0E-AEC5-26FBAE5742BC} = {E65880AA-3234-470F-84AC-160DF36D3AC3}
+		{9BB8ADFE-CDAC-4F41-B36E-25AC5208EE12} = {E65880AA-3234-470F-84AC-160DF36D3AC3}
+		{4012F601-735B-4345-9330-F784BB78B12B} = {A8B7C849-5407-4C3E-B509-7C86C6A076C6}
+		{B4616A40-CFFF-49D5-A7DC-047B7903BB67} = {87224BA9-2859-44B0-BE74-DD5CCC8EF0BD}
+		{4EE4A49F-9239-4F70-AD91-A9C279992A22} = {F3080D8A-8418-4D0E-AEC5-26FBAE5742BC}
+		{956D7C35-D4D0-488D-BB2A-386B951EBAC7} = {9BB8ADFE-CDAC-4F41-B36E-25AC5208EE12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3788499F-5707-4853-8944-882D45F61150}

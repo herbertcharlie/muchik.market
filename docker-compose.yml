@@ -12,7 +12,14 @@ services:
     build:
       context: .
       dockerfile: muchik.market.api.gateway/Dockerfile
+  muchik.market.pay.api:
+    image: ${DOCKER_REGISTRY-}muchikmarketpayapi
+    build:
+      context: .
+      dockerfile: muchik.market.pay.api/Dockerfile
+
 networks:
   default:
     external:
       name: muchik-nw
+

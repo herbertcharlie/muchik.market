@@ -1,0 +1,48 @@
+name: dockercompose8121857686954697974
+services:
+  muchik.market.api.gateway:
+    build:
+      context: D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\muchik.market
+      dockerfile: muchik.market.api.gateway/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: dev
+    image: muchikmarketapigateway
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "9500"
+      protocol: tcp
+  muchik.market.pay.api:
+    build:
+      context: D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\muchik.market
+      dockerfile: muchik.market.pay.api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: dev
+    image: muchikmarketpayapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "9203"
+      protocol: tcp
+  muchik.market.security.api:
+    build:
+      context: D:\HERBERT\CURSOS\4.NET SERVICIOS\proyecto\muchik.market
+      dockerfile: muchik.market.security.api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: dev
+    image: muchikmarketsecurityapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "9205"
+      protocol: tcp
+networks:
+  default:
+    name: muchik-nw
+    external: true
